@@ -26,8 +26,8 @@ Partial Class Form1
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.TxtBtn = New System.Windows.Forms.Button()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
+        Me.XMLBtn = New System.Windows.Forms.Button()
+        Me.JSONBtn = New System.Windows.Forms.Button()
         Me.NameBox = New System.Windows.Forms.TextBox()
         Me.AgeBox = New System.Windows.Forms.TextBox()
         Me.AddressBox = New System.Windows.Forms.TextBox()
@@ -73,25 +73,25 @@ Partial Class Form1
         Me.TxtBtn.Text = "Txt"
         Me.TxtBtn.UseVisualStyleBackColor = True
         '
-        'Button1
+        'XMLBtn
         '
-        Me.Button1.Font = New System.Drawing.Font("Modern No. 20", 20.25!)
-        Me.Button1.Location = New System.Drawing.Point(334, 311)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(97, 49)
-        Me.Button1.TabIndex = 4
-        Me.Button1.Text = "XML"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.XMLBtn.Font = New System.Drawing.Font("Modern No. 20", 20.25!)
+        Me.XMLBtn.Location = New System.Drawing.Point(334, 311)
+        Me.XMLBtn.Name = "XMLBtn"
+        Me.XMLBtn.Size = New System.Drawing.Size(97, 49)
+        Me.XMLBtn.TabIndex = 4
+        Me.XMLBtn.Text = "XML"
+        Me.XMLBtn.UseVisualStyleBackColor = True
         '
-        'Button2
+        'JSONBtn
         '
-        Me.Button2.Font = New System.Drawing.Font("Modern No. 20", 20.25!)
-        Me.Button2.Location = New System.Drawing.Point(648, 311)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(101, 49)
-        Me.Button2.TabIndex = 5
-        Me.Button2.Text = "JSON"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.JSONBtn.Font = New System.Drawing.Font("Modern No. 20", 20.25!)
+        Me.JSONBtn.Location = New System.Drawing.Point(648, 311)
+        Me.JSONBtn.Name = "JSONBtn"
+        Me.JSONBtn.Size = New System.Drawing.Size(101, 49)
+        Me.JSONBtn.TabIndex = 5
+        Me.JSONBtn.Text = "JSON"
+        Me.JSONBtn.UseVisualStyleBackColor = True
         '
         'NameBox
         '
@@ -128,8 +128,8 @@ Partial Class Form1
         Me.Controls.Add(Me.AddressBox)
         Me.Controls.Add(Me.AgeBox)
         Me.Controls.Add(Me.NameBox)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.JSONBtn)
+        Me.Controls.Add(Me.XMLBtn)
         Me.Controls.Add(Me.TxtBtn)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
@@ -146,8 +146,8 @@ Partial Class Form1
     Friend WithEvents Label2 As Label
     Friend WithEvents Label3 As Label
     Friend WithEvents TxtBtn As Button
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
+    Friend WithEvents XMLBtn As Button
+    Friend WithEvents JSONBtn As Button
     Friend WithEvents NameBox As TextBox
     Friend WithEvents AgeBox As TextBox
     Friend WithEvents AddressBox As TextBox
