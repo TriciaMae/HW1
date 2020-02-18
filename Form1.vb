@@ -1,5 +1,21 @@
-﻿Public Class Form1
+﻿Imports System.IO
+Imports System.Text
+Public Class Form1
     Private Sub TxtBtn_Click(sender As Object, e As EventArgs) Handles TxtBtn.Click
+        'Creating .txt file with file path
+        Dim path As String = "c:\temp\Text Format.txt"
+        Dim fs As FileStream = File.Create(path)
+        Dim name, age, address As String
 
+        'Getting entered info
+        name = NameBox.Text
+        age = AgeBox.Text
+        address = AddressBox.Text
+
+        'Writing the entered info into the txt file
+        Dim info As Byte() = New UTF8Encoding(True).GetBytes("Name: " + name + vbCrLf + "Age: " + age + vbCrLf + "Address: " + address)
+        fs.Write(info, 0, info.Length)
+        MsgBox("Successfully created .txt file!", MsgBoxStyle.Information, "Txt File")
+        fs.Close()
     End Sub
 End Class
