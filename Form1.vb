@@ -30,7 +30,7 @@ Public Class Form1
         age = AgeBox.Text
         address = AddressBox.Text
 
-        'Writing the entered info into the txt file
+        'Writing the entered info into the xml file
         Dim info As Byte() = New UTF8Encoding(True).GetBytes("<article lang=''''>" + vbCrLf + "     <para>Name: " + name + "</para>" + vbCrLf +
               "     <para>Age: " + age + "</para>" + vbCrLf + "     <para>Address: " + address + "</para>" +
                vbCrLf + "</article>")
@@ -50,7 +50,7 @@ Public Class Form1
         age = AgeBox.Text
         address = AddressBox.Text
 
-        'Writing the entered info into the txt file
+        'Writing the entered info into the json file
         Dim info As Byte() = New UTF8Encoding(True).GetBytes("[""Name: " + name + """" + "," + """Age: " + age +
                                                              """" + "," + """Address: " + address + """]")
         fs.Write(info, 0, info.Length)
