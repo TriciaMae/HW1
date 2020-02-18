@@ -9,3 +9,14 @@ C:\Users\Tedbu\source\repos\HW1\obj\Debug\HW1.vbproj.GenerateResource.cache
 C:\Users\Tedbu\source\repos\HW1\obj\Debug\HW1.exe
 C:\Users\Tedbu\source\repos\HW1\obj\Debug\HW1.xml
 C:\Users\Tedbu\source\repos\HW1\obj\Debug\HW1.pdb
+C:\Users\Tedbu\source\repos\HW1\HW1\bin\Debug\HW1.exe.config
+C:\Users\Tedbu\source\repos\HW1\HW1\bin\Debug\HW1.exe
+C:\Users\Tedbu\source\repos\HW1\HW1\bin\Debug\HW1.pdb
+C:\Users\Tedbu\source\repos\HW1\HW1\bin\Debug\HW1.xml
+C:\Users\Tedbu\source\repos\HW1\HW1\obj\Debug\HW1.vbprojAssemblyReference.cache
+C:\Users\Tedbu\source\repos\HW1\HW1\obj\Debug\HW1.Form1.resources
+C:\Users\Tedbu\source\repos\HW1\HW1\obj\Debug\HW1.Resources.resources
+C:\Users\Tedbu\source\repos\HW1\HW1\obj\Debug\HW1.vbproj.GenerateResource.cache
+C:\Users\Tedbu\source\repos\HW1\HW1\obj\Debug\HW1.exe
+C:\Users\Tedbu\source\repos\HW1\HW1\obj\Debug\HW1.xml
+C:\Users\Tedbu\source\repos\HW1\HW1\obj\Debug\HW1.pdb
